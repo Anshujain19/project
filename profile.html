@@ -1,0 +1,50 @@
+<!-- Profile Page HTML -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kiddo Coins Profile</title>
+  <link rel="stylesheet" href="profile.css">
+  <style>
+    body {
+      background-image: url("stydy2.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+<body>
+  <header style="background-color: rgb(255, 208, 0);">
+    <nav>
+      <ul>
+        <li><a href="rewardpage.html">Redeem</a></li>
+        <li><a href="rewardpage.html">Redeem</a></li>
+        <li><a href="parents.html">Add Tasks</a></li>
+        <li><a href="tasks.html">Your Tasks</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="profile" style="background-image: url(stydy2.jpg);">
+      <h1 style="text-align: center;">Profile</h1>
+      <div class="profile-info">
+        <h2>Username: <span id="username"></span></h2>
+        <h2>Email: <span id="email"></span></h2>
+        <h2>Coins: <span id="coins"></span></h2>
+        <h2>Level: <span id="level"></span></h2>
+        <h2>Progress: <span id="progress"></span></h2>
+      </div>
+      <div class="profile-stats">
+        <h2>Completed Tasks: <span id="completed-tasks"></span></h2>
+        <h2>Remaining Tasks: <span id="remaining-tasks"></span></h2>
+        <h2>Streak: <span id="streak"></span></h2>
+      </div>
+      <button id="edit-profile" style="border-radius: 20px;">Edit Profile</button>
+      <button id="change-password" style="border-radius: 20px;">Change Password</button>
+    </section>
+  </main>
+  <script src="profile.js"></script>
+</body>
+</html>
